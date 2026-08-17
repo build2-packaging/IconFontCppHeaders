@@ -1,0 +1,5 @@
+import libs = libiconfontcppheaders%lib{iconfontcppheaders}
+
+./: exe{fa4}: cxx{fa4} $libs
+./: exe{fa5}: cxx{fa5} $libs
+./: exe{fa6}: cxx{fa6} $libs
