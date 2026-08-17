@@ -1,6 +1,9 @@
 # Test executables.
 #
 driver
+fa4
+fa5
+fa6
 
 # Testscript output directories (can be symlinks).
 #
