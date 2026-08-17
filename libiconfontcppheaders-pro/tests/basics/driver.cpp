@@ -1,34 +1,14 @@
-#include <sstream>
-#include <stdexcept>
-
-#include <iconfontcppheaders/iconfontcppheaders-pro.h>
+#include <iconfontcppheaders/IconsFontAwesome5Pro.h>
+#include <iconfontcppheaders/IconsFontAwesome5ProBrands.h>
 
 #undef NDEBUG
 #include <cassert>
 
 int main ()
 {
-  using namespace std;
-  using namespace iconfontcppheaders_pro;
-
-  // Basics.
-  //
-  {
-    ostringstream o;
-    say_hello (o, "World");
-    assert (o.str () == "Hello, World!\n");
-  }
-
-  // Empty name.
-  //
-  try
-  {
-    ostringstream o;
-    say_hello (o, "");
-    assert (false);
-  }
-  catch (const invalid_argument& e)
-  {
-    assert (e.what () == string ("empty name"));
-  }
+  assert (ICON_FA_ABACUS != nullptr);
+  assert (ICON_FA_500PX != nullptr);
+  assert (ICON_MIN_FA <= ICON_MAX_16_FA);
+  assert (ICON_MIN_FAB <= ICON_MAX_16_FAB);
+  assert (FONT_ICON_FILE_NAME_FAL != nullptr);
 }
