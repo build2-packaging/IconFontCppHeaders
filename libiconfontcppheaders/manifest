@@ -1,16 +1,20 @@
 : 1
 name: libiconfontcppheaders
-version: 0.1.0-a.0.z
+version: 2026.6.5-a.0.z
+upstream-version: 20260605
 type: lib,binless
 language: c++
-project: build2-IconFontCppHeaders
-summary: iconfontcppheaders C++ library
-license: other: proprietary ; Not free/open source.
+language: c
+project: iconfontcppheaders
+summary: C and C++ headers for icon font codepoints
+license: Zlib
 description-file: README.md
 package-description-file: PACKAGE-README.md
-url: https://example.org/upstream
-email: upstream@example.org
-package-url: https://github.com/build2-packaging/build2-IconFontCppHeaders
+url: https://github.com/juliettef/IconFontCppHeaders
+email: juliette@enkisoftware.com
+src-url: https://github.com/juliettef/IconFontCppHeaders
+package-url: https://github.com/build2-packaging/IconFontCppHeaders
 package-email: packaging@build2.org ; Mailing list.
+topics: icon font, font awesome, imgui, header-only
 depends: * build2 >= 0.18.0
 depends: * bpkg >= 0.18.0
