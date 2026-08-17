@@ -1,0 +1,10 @@
+: 1
+name: libiconfontcppheaders
+version: 2026.6.5
+upstream-version: 20260605
+type: lib,binless
+language: c++
+language: c
+project: iconfontcppheaders
+summary: C and C++ headers for icon font codepoints
+license: Zlib
